@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.k12lib.afast.view.RecycleImageView
+        android:id="@+id/rlv_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_guide2" />
+
+    <!--<TextView
+        android:id="@+id/tv_cont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlv_guide"
+        android:layout_centerHorizontal="true"
+        android:text="消费 + 金融 + 资讯"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_cont2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cont1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:text="持续更新最新贷款口子、最新技术、最新的信用卡提额方式、每日更细。一次性消费，终身受益"
+        android:textColor="#fff4e7"
+        android:textSize="14sp" />-->
+
+
+</RelativeLayout>

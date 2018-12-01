@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_b3000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@color/gray_eeeeee">
+
+        <ImageView
+            android:id="@+id/mIvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:src="@mipmap/ic_back" />
+
+        <com.k12app.view.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="输入密码"
+            android:textSize="@dimen/sp_17" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/mIvBack"
+            android:background="@color/gray_e0e0e0" />
+
+        <com.k12app.view.SecurityPasswordEditText
+            android:id="@+id/mEtPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp" />
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:layout_below="@id/mEtPwd"
+            android:layout_marginTop="10dp"
+            android:text="忘记密码"
+            android:textColor="@color/blue_07a2ee"
+            android:textSize="@dimen/sp_15"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

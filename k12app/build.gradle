@@ -1,0 +1,91 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    signingConfigs {
+        release_sign {
+            keyAlias 'k12'
+            keyPassword 'k12_2017'
+            storeFile file('/Users/Du/android/git/k12-android/keystory.jks')
+            storePassword 'k12_2017'
+        }
+    }
+    aaptOptions {
+                cruncherEnabled = false
+                 useNewCruncher = false
+             }
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.k12app"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+        manifestPlaceholders = [umeng_appkey:"5947358a8f4a9d2f33000630",umeng_message_secret:"e42a59c6bf098f72defdf4fc2dd3f022"]
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release_sign
+        }
+        release {
+            signingConfig signingConfigs.release_sign
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+//    productFlavors {
+//        student {
+//            applicationId "com.k12.student"
+//            versionCode 1
+//            versionName "1.0.1"
+//            buildConfigField 'boolean', 'isTeacher', 'false'
+//            resValue "string", "app_name", "学生版"
+//            manifestPlaceholders = [umeng_appkey:"5947358a8f4a9d2f33000630",umeng_message_secret:"e42a59c6bf098f72defdf4fc2dd3f022"]
+//        }
+//        teacher {
+//            applicationId "com.k12.teacher"
+//            versionCode 1
+//            versionName "1.0.0"
+//            buildConfigField 'boolean', 'isTeacher', 'true'
+//            resValue "string", "app_name", "教师版"
+//            manifestPlaceholders = [umeng_appkey:"59473611f29d984e350000b9",umeng_message_secret:"7428a09495e94cb408597d576d012afb"]
+////        }
+//    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':k12lib')
+    compile project(':thirdlib')
+//    compile 'com.android.support:appcompat-v7:25.1.1'
+
+    //    compile 'com.android.support:recyclerview-v7:25.0.+'
+}
+
+

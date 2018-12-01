@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="citys">
+        [
+  {
+    "CITY_ID" : "1",
+    "CITY_NAME" : "北京"
+  },
+  {
+    "CITY_ID" : "2",
+    "CITY_NAME" : "上海"
+  },
+  {
+    "CITY_ID" : "3",
+    "CITY_NAME" : "天津"
+  },
+  {
+    "CITY_ID" : "4",
+    "CITY_NAME" : "重庆"
+  },
+  {
+    "CITY_ID" : "5",
+    "CITY_NAME" : "哈尔滨"
+  },
+  {
+    "CITY_ID" : "6",
+    "CITY_NAME" : "齐齐哈尔"
+  },
+  {
+    "CITY_ID" : "7",
+    "CITY_NAME" : "牡丹江"
+  },
+  {
+    "CITY_ID" : "8",
+    "CITY_NAME" : "佳木斯"
+  },
+  {
+    "CITY_ID" : "9",
+    "CITY_NAME" : "绥化"
+  },
+  {
+    "CITY_ID" : "10",
+    "CITY_NAME" : "黑河"
+  },
+  {
+    "CITY_ID" : "11",
+    "CITY_NAME" : "大兴安岭"
+  },
+  {
+    "CITY_ID" : "12",
+    "CITY_NAME" : "伊春"
+  },
+  {
+    "CITY_ID" : "13",
+    "CITY_NAME" : "大庆"
+  },
+  {
+    "CITY_ID" : "14",
+    "CITY_NAME" : "七台河"
+  },
+  {
+    "CITY_ID" : "15",
+    "CITY_NAME" : "鸡西"
+  },
+  {
+    "CITY_ID" : "16",
+    "CITY_NAME" : "鹤岗"
+  },
+  {
+    "CITY_ID" : "17",
+    "CITY_NAME" : "双鸭山"
+  },
+  {
+    "CITY_ID" : "18",
+    "CITY_NAME" : "长春"
+  },
+  {
+    "CITY_ID" : "19",
+    "CITY_NAME" : "吉林"
+  },
+  {
+    "CITY_ID" : "20",
+    "CITY_NAME" : "延边"
+  },
+  {
+    "CITY_ID" : "21",
+    "CITY_NAME" : "四平"
+  },
+  {
+    "CITY_ID" : "22",
+    "CITY_NAME" : "通化"
+  },
+  {
+    "CITY_ID" : "23",
+    "CITY_NAME" : "白城"
+  },
+  {
+    "CITY_ID" : "24",
+    "CITY_NAME" : "辽源"
+  },
+  {
+    "CITY_ID" : "25",
+    "CITY_NAME" : "松原"
+  },
+  {
+    "CITY_ID" : "26",
+    "CITY_NAME" : "白山"
+  },
+  {
+    "CITY_ID" : "27",
+    "CITY_NAME" : "沈阳"
+  },
+  {
+    "CITY_ID" : "28",
+    "CITY_NAME" : "大连"
+  },
+  {
+    "CITY_ID" : "29",
+    "CITY_NAME" : "鞍山"
+  },
+  {
+    "CITY_ID" : "30",
+    "CITY_NAME" : "抚顺"
+  },
+  {
+    "CITY_ID" : "31",
+    "CITY_NAME" : "本溪"
+  },
+  {
+    "CITY_ID" : "32",
+    "CITY_NAME" : "丹东"
+  },
+  {
+    "CITY_ID" : "33",
+    "CITY_NAME" : "锦州"
+  },
+  {
+    "CITY_ID" : "34",
+    "CITY_NAME" : "营口"
+  },
+  {
+    "CITY_ID" : "35",
+    "CITY_NAME" : "阜新"
+  },
+  {
+    "CITY_ID" : "36",
+    "CITY_NAME" : "辽阳"
+  },
+  {
+    "CITY_ID" : "37",
+    "CITY_NAME" : "铁岭"
+  },
+  {
+    "CITY_ID" : "38",
+    "CITY_NAME" : "朝阳"
+  },
+  {
+    "CITY_ID" : "39",
+    "CITY_NAME" : "盘锦"
+  },
+  {
+    "CITY_ID" : "40",
+    "CITY_NAME" : "葫芦岛"
+  },
+  {
+    "CITY_ID" : "41",
+    "CITY_NAME" : "呼和浩特"
+  },
+  {
+    "CITY_ID" : "42",
+    "CITY_NAME" : "包头"
+  },
+  {
+    "CITY_ID" : "43",
+    "CITY_NAME" : "乌海"
+  },
+  {
+    "CITY_ID" : "44",
+    "CITY_NAME" : "乌兰察布"
+  },
+  {
+    "CITY_ID" : "45",
+    "CITY_NAME" : "通辽"
+  },
+  {
+    "CITY_ID" : "46",
+    "CITY_NAME" : "赤峰"
+  },
+  {
+    "CITY_ID" : "47",
+    "CITY_NAME" : "鄂尔多斯"
+  },
+  {
+    "CITY_ID" : "48",
+    "CITY_NAME" : "巴彦淖尔"
+  },
+  {
+    "CITY_ID" : "49",
+    "CITY_NAME" : "锡林郭勒"
+  },
+  {
+    "CITY_ID" : "50",
+    "CITY_NAME" : "呼伦贝尔"
+  },
+  {
+    "CITY_ID" : "51",
+    "CITY_NAME" : "兴安盟"
+  },
+  {
+    "CITY_ID" : "52",
+    "CITY_NAME" : "阿拉善盟"
+  },
+  {
+    "CITY_ID" : "53",
+    "CITY_NAME" : "石家庄"
+  },
+  {
+    "CITY_ID" : "54",
+    "CITY_NAME" : "保定"
+  },
+  {
+    "CITY_ID" : "55",
+    "CITY_NAME" : "张家口"
+  },
+  {
+    "CITY_ID" : "56",
+    "CITY_NAME" : "承德"
+  },
+  {
+    "CITY_ID" : "57",
+    "CITY_NAME" : "唐山"
+  },
+  {
+    "CITY_ID" : "58",
+    "CITY_NAME" : "廊坊"
+  },
+  {
+    "CITY_ID" : "59",
+    "CITY_NAME" : "沧州"
+  },
+  {
+    "CITY_ID" : "60",
+    "CITY_NAME" : "衡水"
+  },
+  {
+    "CITY_ID" : "61",
+    "CITY_NAME" : "邢台"
+  },
+  {
+    "CITY_ID" : "62",
+    "CITY_NAME" : "邯郸"
+  },
+  {
+    "CITY_ID" : "63",
+    "CITY_NAME" : "秦皇岛"
+  },
+  {
+    "CITY_ID" : "64",
+    "CITY_NAME" : "太原"
+  },
+  {
+    "CITY_ID" : "65",
+    "CITY_NAME" : "大同"
+  },
+  {
+    "CITY_ID" : "66",
+    "CITY_NAME" : "阳泉"
+  },
+  {
+    "CITY_ID" : "67",
+    "CITY_NAME" : "晋中"
+  },
+  {
+    "CITY_ID" : "68",
+    "CITY_NAME" : "长治"
+  },
+  {
+    "CITY_ID" : "69",
+    "CITY_NAME" : "晋城"
+  },
+  {
+    "CITY_ID" : "70",
+    "CITY_NAME" : "临汾"
+  },
+  {
+    "CITY_ID" : "71",
+    "CITY_NAME" : "运城"
+  },
+  {
+    "CITY_ID" : "72",
+    "CITY_NAME" : "朔州"
+  },
+  {
+    "CITY_ID" : "73",
+    "CITY_NAME" : "忻州"
+  },
+  {
+    "CITY_ID" : "74",
+    "CITY_NAME" : "吕梁"
+  },
+  {
+    "CITY_ID" : "75",
+    "CITY_NAME" : "西安"
+  },
+  {
+    "CITY_ID" : "76",
+    "CITY_NAME" : "咸阳"
+  },
+  {
+    "CITY_ID" : "77",
+    "CITY_NAME" : "延安"
+  },
+  {
+    "CITY_ID" : "78",
+    "CITY_NAME" : "榆林"
+  },
+  {
+    "CITY_ID" : "79",
+    "CITY_NAME" : "渭南"
+  },
+  {
+    "CITY_ID" : "80",
+    "CITY_NAME" : "商洛"
+  },
+  {
+    "CITY_ID" : "81",
+    "CITY_NAME" : "安康"
+  },
+  {
+    "CITY_ID" : "82",
+    "CITY_NAME" : "汉中"
+  },
+  {
+    "CITY_ID" : "83",
+    "CITY_NAME" : "宝鸡"
+  },
+  {
+    "CITY_ID" : "84",
+    "CITY_NAME" : "铜川"
+  },
+  {
+    "CITY_ID" : "85",
+    "CITY_NAME" : "杨凌"
+  },
+  {
+    "CITY_ID" : "86",
+    "CITY_NAME" : "济南"
+  },
+  {
+    "CITY_ID" : "87",
+    "CITY_NAME" : "青岛"
+  },
+  {
+    "CITY_ID" : "88",
+    "CITY_NAME" : "淄博"
+  },
+  {
+    "CITY_ID" : "89",
+    "CITY_NAME" : "德州"
+  },
+  {
+    "CITY_ID" : "90",
+    "CITY_NAME" : "烟台"
+  },
+  {
+    "CITY_ID" : "91",
+    "CITY_NAME" : "潍坊"
+  },
+  {
+    "CITY_ID" : "92",
+    "CITY_NAME" : "济宁"
+  },
+  {
+    "CITY_ID" : "93",
+    "CITY_NAME" : "泰安"
+  },
+  {
+    "CITY_ID" : "94",
+    "CITY_NAME" : "临沂"
+  },
+  {
+    "CITY_ID" : "95",
+    "CITY_NAME" : "菏泽"
+  },
+  {
+    "CITY_ID" : "96",
+    "CITY_NAME" : "滨州"
+  },
+  {
+    "CITY_ID" : "97",
+    "CITY_NAME" : "东营"
+  },
+  {
+    "CITY_ID" : "98",
+    "CITY_NAME" : "威海"
+  },
+  {
+    "CITY_ID" : "99",
+    "CITY_NAME" : "枣庄"
+  },
+  {
+    "CITY_ID" : "100",
+    "CITY_NAME" : "日照"
+  },
+  {
+    "CITY_ID" : "101",
+    "CITY_NAME" : "莱芜"
+  },
+  {
+    "CITY_ID" : "102",
+    "CITY_NAME" : "聊城"
+  },
+  {
+    "CITY_ID" : "103",
+    "CITY_NAME" : "乌鲁木齐"
+  },
+  {
+    "CITY_ID" : "104",
+    "CITY_NAME" : "克拉玛依"
+  },
+  {
+    "CITY_ID" : "105",
+    "CITY_NAME" : "石河子"
+  },
+  {
+    "CITY_ID" : "106",
+    "CITY_NAME" : "昌吉"
+  },
+  {
+    "CITY_ID" : "107",
+    "CITY_NAME" : "吐鲁番"
+  },
+  {
+    "CITY_ID" : "108",
+    "CITY_NAME" : "巴音郭楞"
+  },
+  {
+    "CITY_ID" : "109",
+    "CITY_NAME" : "阿拉尔"
+  },
+  {
+    "CITY_ID" : "110",
+    "CITY_NAME" : "阿克苏"
+  },
+  {
+    "CITY_ID" : "111",
+    "CITY_NAME" : "喀什"
+  },
+  {
+    "CITY_ID" : "112",
+    "CITY_NAME" : "伊犁"
+  },
+  {
+    "CITY_ID" : "113",
+    "CITY_NAME" : "塔城"
+  },
+  {
+    "CITY_ID" : "114",
+    "CITY_NAME" : "哈密"
+  },
+  {
+    "CITY_ID" : "115",
+    "CITY_NAME" : "和田"
+  },
+  {
+    "CITY_ID" : "116",
+    "CITY_NAME" : "阿勒泰"
+  },
+  {
+    "CITY_ID" : "117",
+    "CITY_NAME" : "克州"
+  },
+  {
+    "CITY_ID" : "118",
+    "CITY_NAME" : "博尔塔拉"
+  },
+  {
+    "CITY_ID" : "119",
+    "CITY_NAME" : "拉萨"
+  },
+  {
+    "CITY_ID" : "120",
+    "CITY_NAME" : "日喀则"
+  },
+  {
+    "CITY_ID" : "121",
+    "CITY_NAME" : "山南"
+  },
+  {
+    "CITY_ID" : "122",
+    "CITY_NAME" : "林芝"
+  },
+  {
+    "CITY_ID" : "123",
+    "CITY_NAME" : "昌都"
+  },
+  {
+    "CITY_ID" : "124",
+    "CITY_NAME" : "那曲"
+  },
+  {
+    "CITY_ID" : "125",
+    "CITY_NAME" : "阿里"
+  },
+  {
+    "CITY_ID" : "126",
+    "CITY_NAME" : "西宁"
+  },
+  {
+    "CITY_ID" : "127",
+    "CITY_NAME" : "海东"
+  },
+  {
+    "CITY_ID" : "128",
+    "CITY_NAME" : "黄南"
+  },
+  {
+    "CITY_ID" : "129",
+    "CITY_NAME" : "海南"
+  },
+  {
+    "CITY_ID" : "130",
+    "CITY_NAME" : "果洛"
+  },
+  {
+    "CITY_ID" : "131",
+    "CITY_NAME" : "玉树"
+  },
+  {
+    "CITY_ID" : "132",
+    "CITY_NAME" : "海西"
+  },
+  {
+    "CITY_ID" : "133",
+    "CITY_NAME" : "海北"
+  },
+  {
+    "CITY_ID" : "134",
+    "CITY_NAME" : "格尔木"
+  },
+  {
+    "CITY_ID" : "135",
+    "CITY_NAME" : "兰州"
+  },
+  {
+    "CITY_ID" : "136",
+    "CITY_NAME" : "定西"
+  },
+  {
+    "CITY_ID" : "137",
+    "CITY_NAME" : "平凉"
+  },
+  {
+    "CITY_ID" : "138",
+    "CITY_NAME" : "庆阳"
+  },
+  {
+    "CITY_ID" : "139",
+    "CITY_NAME" : "武威"
+  },
+  {
+    "CITY_ID" : "140",
+    "CITY_NAME" : "金昌"
+  },
+  {
+    "CITY_ID" : "141",
+    "CITY_NAME" : "张掖"
+  },
+  {
+    "CITY_ID" : "142",
+    "CITY_NAME" : "酒泉"
+  },
+  {
+    "CITY_ID" : "143",
+    "CITY_NAME" : "天水"
+  },
+  {
+    "CITY_ID" : "144",
+    "CITY_NAME" : "陇南"
+  },
+  {
+    "CITY_ID" : "145",
+    "CITY_NAME" : "临夏"
+  },
+  {
+    "CITY_ID" : "146",
+    "CITY_NAME" : "甘南"
+  },
+  {
+    "CITY_ID" : "147",
+    "CITY_NAME" : "白银"
+  },
+  {
+    "CITY_ID" : "148",
+    "CITY_NAME" : "嘉峪关"
+  },
+  {
+    "CITY_ID" : "149",
+    "CITY_NAME" : "银川"
+  },
+  {
+    "CITY_ID" : "150",
+    "CITY_NAME" : "石嘴山"
+  },
+  {
+    "CITY_ID" : "151",
+    "CITY_NAME" : "吴忠"
+  },
+  {
+    "CITY_ID" : "152",
+    "CITY_NAME" : "固原"
+  },
+  {
+    "CITY_ID" : "153",
+    "CITY_NAME" : "中卫"
+  },
+  {
+    "CITY_ID" : "154",
+    "CITY_NAME" : "郑州"
+  },
+  {
+    "CITY_ID" : "155",
+    "CITY_NAME" : "安阳"
+  },
+  {
+    "CITY_ID" : "156",
+    "CITY_NAME" : "新乡"
+  },
+  {
+    "CITY_ID" : "157",
+    "CITY_NAME" : "许昌"
+  },
+  {
+    "CITY_ID" : "158",
+    "CITY_NAME" : "平顶山"
+  },
+  {
+    "CITY_ID" : "159",
+    "CITY_NAME" : "信阳"
+  },
+  {
+    "CITY_ID" : "160",
+    "CITY_NAME" : "南阳"
+  },
+  {
+    "CITY_ID" : "161",
+    "CITY_NAME" : "开封"
+  },
+  {
+    "CITY_ID" : "162",
+    "CITY_NAME" : "洛阳"
+  },
+  {
+    "CITY_ID" : "163",
+    "CITY_NAME" : "商丘"
+  },
+  {
+    "CITY_ID" : "164",
+    "CITY_NAME" : "焦作"
+  },
+  {
+    "CITY_ID" : "165",
+    "CITY_NAME" : "鹤壁"
+  },
+  {
+    "CITY_ID" : "166",
+    "CITY_NAME" : "濮阳"
+  },
+  {
+    "CITY_ID" : "167",
+    "CITY_NAME" : "周口"
+  },
+  {
+    "CITY_ID" : "168",
+    "CITY_NAME" : "漯河"
+  },
+  {
+    "CITY_ID" : "169",
+    "CITY_NAME" : "驻马店"
+  },
+  {
+    "CITY_ID" : "170",
+    "CITY_NAME" : "三门峡"
+  },
+  {
+    "CITY_ID" : "171",
+    "CITY_NAME" : "济源"
+  },
+  {
+    "CITY_ID" : "172",
+    "CITY_NAME" : "南京"
+  },
+  {
+    "CITY_ID" : "173",
+    "CITY_NAME" : "无锡"
+  },
+  {
+    "CITY_ID" : "174",
+    "CITY_NAME" : "镇江"
+  },
+  {
+    "CITY_ID" : "175",
+    "CITY_NAME" : "苏州"
+  },
+  {
+    "CITY_ID" : "176",
+    "CITY_NAME" : "南通"
+  },
+  {
+    "CITY_ID" : "177",
+    "CITY_NAME" : "扬州"
+  },
+  {
+    "CITY_ID" : "178",
+    "CITY_NAME" : "盐城"
+  },
+  {
+    "CITY_ID" : "179",
+    "CITY_NAME" : "徐州"
+  },
+  {
+    "CITY_ID" : "180",
+    "CITY_NAME" : "淮安"
+  },
+  {
+    "CITY_ID" : "181",
+    "CITY_NAME" : "连云港"
+  },
+  {
+    "CITY_ID" : "182",
+    "CITY_NAME" : "常州"
+  },
+  {
+    "CITY_ID" : "183",
+    "CITY_NAME" : "泰州"
+  },
+  {
+    "CITY_ID" : "184",
+    "CITY_NAME" : "宿迁"
+  },
+  {
+    "CITY_ID" : "185",
+    "CITY_NAME" : "武汉"
+  },
+  {
+    "CITY_ID" : "186",
+    "CITY_NAME" : "襄阳"
+  },
+  {
+    "CITY_ID" : "187",
+    "CITY_NAME" : "鄂州"
+  },
+  {
+    "CITY_ID" : "188",
+    "CITY_NAME" : "孝感"
+  },
+  {
+    "CITY_ID" : "189",
+    "CITY_NAME" : "黄冈"
+  },
+  {
+    "CITY_ID" : "190",
+    "CITY_NAME" : "黄石"
+  },
+  {
+    "CITY_ID" : "191",
+    "CITY_NAME" : "咸宁"
+  },
+  {
+    "CITY_ID" : "192",
+    "CITY_NAME" : "荆州"
+  },
+  {
+    "CITY_ID" : "193",
+    "CITY_NAME" : "宜昌"
+  },
+  {
+    "CITY_ID" : "194",
+    "CITY_NAME" : "恩施"
+  },
+  {
+    "CITY_ID" : "195",
+    "CITY_NAME" : "十堰"
+  },
+  {
+    "CITY_ID" : "196",
+    "CITY_NAME" : "神农架"
+  },
+  {
+    "CITY_ID" : "197",
+    "CITY_NAME" : "随州"
+  },
+  {
+    "CITY_ID" : "198",
+    "CITY_NAME" : "荆门"
+  },
+  {
+    "CITY_ID" : "199",
+    "CITY_NAME" : "天门"
+  },
+  {
+    "CITY_ID" : "200",
+    "CITY_NAME" : "仙桃"
+  },
+  {
+    "CITY_ID" : "201",
+    "CITY_NAME" : "潜江"
+  },
+  {
+    "CITY_ID" : "202",
+    "CITY_NAME" : "杭州"
+  },
+  {
+    "CITY_ID" : "203",
+    "CITY_NAME" : "湖州"
+  },
+  {
+    "CITY_ID" : "204",
+    "CITY_NAME" : "嘉兴"
+  },
+  {
+    "CITY_ID" : "205",
+    "CITY_NAME" : "宁波"
+  },
+  {
+    "CITY_ID" : "206",
+    "CITY_NAME" : "绍兴"
+  },
+  {
+    "CITY_ID" : "207",
+    "CITY_NAME" : "台州"
+  },
+  {
+    "CITY_ID" : "208",
+    "CITY_NAME" : "温州"
+  },
+  {
+    "CITY_ID" : "209",
+    "CITY_NAME" : "丽水"
+  },
+  {
+    "CITY_ID" : "210",
+    "CITY_NAME" : "金华"
+  },
+  {
+    "CITY_ID" : "211",
+    "CITY_NAME" : "衢州"
+  },
+  {
+    "CITY_ID" : "212",
+    "CITY_NAME" : "舟山"
+  },
+  {
+    "CITY_ID" : "213",
+    "CITY_NAME" : "合肥"
+  },
+  {
+    "CITY_ID" : "214",
+    "CITY_NAME" : "蚌埠"
+  },
+  {
+    "CITY_ID" : "215",
+    "CITY_NAME" : "芜湖"
+  },
+  {
+    "CITY_ID" : "216",
+    "CITY_NAME" : "淮南"
+  },
+  {
+    "CITY_ID" : "217",
+    "CITY_NAME" : "马鞍山"
+  },
+  {
+    "CITY_ID" : "218",
+    "CITY_NAME" : "安庆"
+  },
+  {
+    "CITY_ID" : "219",
+    "CITY_NAME" : "宿州"
+  },
+  {
+    "CITY_ID" : "220",
+    "CITY_NAME" : "阜阳"
+  },
+  {
+    "CITY_ID" : "221",
+    "CITY_NAME" : "亳州"
+  },
+  {
+    "CITY_ID" : "222",
+    "CITY_NAME" : "黄山"
+  },
+  {
+    "CITY_ID" : "223",
+    "CITY_NAME" : "滁州"
+  },
+  {
+    "CITY_ID" : "224",
+    "CITY_NAME" : "淮北"
+  },
+  {
+    "CITY_ID" : "225",
+    "CITY_NAME" : "铜陵"
+  },
+  {
+    "CITY_ID" : "226",
+    "CITY_NAME" : "宣城"
+  },
+  {
+    "CITY_ID" : "227",
+    "CITY_NAME" : "六安"
+  },
+  {
+    "CITY_ID" : "228",
+    "CITY_NAME" : "巢湖"
+  },
+  {
+    "CITY_ID" : "229",
+    "CITY_NAME" : "池州"
+  },
+  {
+    "CITY_ID" : "230",
+    "CITY_NAME" : "福州"
+  },
+  {
+    "CITY_ID" : "231",
+    "CITY_NAME" : "厦门"
+  },
+  {
+    "CITY_ID" : "232",
+    "CITY_NAME" : "宁德"
+  },
+  {
+    "CITY_ID" : "233",
+    "CITY_NAME" : "莆田"
+  },
+  {
+    "CITY_ID" : "234",
+    "CITY_NAME" : "泉州"
+  },
+  {
+    "CITY_ID" : "235",
+    "CITY_NAME" : "漳州"
+  },
+  {
+    "CITY_ID" : "236",
+    "CITY_NAME" : "龙岩"
+  },
+  {
+    "CITY_ID" : "237",
+    "CITY_NAME" : "三明"
+  },
+  {
+    "CITY_ID" : "238",
+    "CITY_NAME" : "南平"
+  },
+  {
+    "CITY_ID" : "239",
+    "CITY_NAME" : "南昌"
+  },
+  {
+    "CITY_ID" : "240",
+    "CITY_NAME" : "九江"
+  },
+  {
+    "CITY_ID" : "241",
+    "CITY_NAME" : "上饶"
+  },
+  {
+    "CITY_ID" : "242",
+    "CITY_NAME" : "抚州"
+  },
+  {
+    "CITY_ID" : "243",
+    "CITY_NAME" : "宜春"
+  },
+  {
+    "CITY_ID" : "244",
+    "CITY_NAME" : "吉安"
+  },
+  {
+    "CITY_ID" : "245",
+    "CITY_NAME" : "赣州"
+  },
+  {
+    "CITY_ID" : "246",
+    "CITY_NAME" : "景德镇"
+  },
+  {
+    "CITY_ID" : "247",
+    "CITY_NAME" : "萍乡"
+  },
+  {
+    "CITY_ID" : "248",
+    "CITY_NAME" : "新余"
+  },
+  {
+    "CITY_ID" : "249",
+    "CITY_NAME" : "鹰潭"
+  },
+  {
+    "CITY_ID" : "250",
+    "CITY_NAME" : "长沙"
+  },
+  {
+    "CITY_ID" : "251",
+    "CITY_NAME" : "湘潭"
+  },
+  {
+    "CITY_ID" : "252",
+    "CITY_NAME" : "株洲"
+  },
+  {
+    "CITY_ID" : "253",
+    "CITY_NAME" : "衡阳"
+  },
+  {
+    "CITY_ID" : "254",
+    "CITY_NAME" : "郴州"
+  },
+  {
+    "CITY_ID" : "255",
+    "CITY_NAME" : "常德"
+  },
+  {
+    "CITY_ID" : "256",
+    "CITY_NAME" : "益阳"
+  },
+  {
+    "CITY_ID" : "257",
+    "CITY_NAME" : "娄底"
+  },
+  {
+    "CITY_ID" : "258",
+    "CITY_NAME" : "邵阳"
+  },
+  {
+    "CITY_ID" : "259",
+    "CITY_NAME" : "岳阳"
+  },
+  {
+    "CITY_ID" : "260",
+    "CITY_NAME" : "张家界"
+  },
+  {
+    "CITY_ID" : "261",
+    "CITY_NAME" : "怀化"
+  },
+  {
+    "CITY_ID" : "262",
+    "CITY_NAME" : "永州"
+  },
+  {
+    "CITY_ID" : "263",
+    "CITY_NAME" : "湘西"
+  },
+  {
+    "CITY_ID" : "264",
+    "CITY_NAME" : "贵阳"
+  },
+  {
+    "CITY_ID" : "265",
+    "CITY_NAME" : "遵义"
+  },
+  {
+    "CITY_ID" : "266",
+    "CITY_NAME" : "安顺"
+  },
+  {
+    "CITY_ID" : "267",
+    "CITY_NAME" : "黔南"
+  },
+  {
+    "CITY_ID" : "268",
+    "CITY_NAME" : "黔东南"
+  },
+  {
+    "CITY_ID" : "269",
+    "CITY_NAME" : "铜仁"
+  },
+  {
+    "CITY_ID" : "270",
+    "CITY_NAME" : "毕节"
+  },
+  {
+    "CITY_ID" : "271",
+    "CITY_NAME" : "六盘水"
+  },
+  {
+    "CITY_ID" : "272",
+    "CITY_NAME" : "黔西南"
+  },
+  {
+    "CITY_ID" : "273",
+    "CITY_NAME" : "成都"
+  },
+  {
+    "CITY_ID" : "274",
+    "CITY_NAME" : "攀枝花"
+  },
+  {
+    "CITY_ID" : "275",
+    "CITY_NAME" : "自贡"
+  },
+  {
+    "CITY_ID" : "276",
+    "CITY_NAME" : "绵阳"
+  },
+  {
+    "CITY_ID" : "277",
+    "CITY_NAME" : "南充"
+  },
+  {
+    "CITY_ID" : "278",
+    "CITY_NAME" : "达州"
+  },
+  {
+    "CITY_ID" : "279",
+    "CITY_NAME" : "遂宁"
+  },
+  {
+    "CITY_ID" : "280",
+    "CITY_NAME" : "广安"
+  },
+  {
+    "CITY_ID" : "281",
+    "CITY_NAME" : "巴中"
+  },
+  {
+    "CITY_ID" : "282",
+    "CITY_NAME" : "泸州"
+  },
+  {
+    "CITY_ID" : "283",
+    "CITY_NAME" : "宜宾"
+  },
+  {
+    "CITY_ID" : "284",
+    "CITY_NAME" : "内江"
+  },
+  {
+    "CITY_ID" : "285",
+    "CITY_NAME" : "资阳"
+  },
+  {
+    "CITY_ID" : "286",
+    "CITY_NAME" : "乐山"
+  },
+  {
+    "CITY_ID" : "287",
+    "CITY_NAME" : "眉山"
+  },
+  {
+    "CITY_ID" : "288",
+    "CITY_NAME" : "凉山"
+  },
+  {
+    "CITY_ID" : "289",
+    "CITY_NAME" : "雅安"
+  },
+  {
+    "CITY_ID" : "290",
+    "CITY_NAME" : "甘孜"
+  },
+  {
+    "CITY_ID" : "291",
+    "CITY_NAME" : "阿坝"
+  },
+  {
+    "CITY_ID" : "292",
+    "CITY_NAME" : "德阳"
+  },
+  {
+    "CITY_ID" : "293",
+    "CITY_NAME" : "广元"
+  },
+  {
+    "CITY_ID" : "294",
+    "CITY_NAME" : "广州"
+  },
+  {
+    "CITY_ID" : "295",
+    "CITY_NAME" : "韶关"
+  },
+  {
+    "CITY_ID" : "296",
+    "CITY_NAME" : "惠州"
+  },
+  {
+    "CITY_ID" : "297",
+    "CITY_NAME" : "梅州"
+  },
+  {
+    "CITY_ID" : "298",
+    "CITY_NAME" : "汕头"
+  },
+  {
+    "CITY_ID" : "299",
+    "CITY_NAME" : "深圳"
+  },
+  {
+    "CITY_ID" : "300",
+    "CITY_NAME" : "珠海"
+  },
+  {
+    "CITY_ID" : "301",
+    "CITY_NAME" : "佛山"
+  },
+  {
+    "CITY_ID" : "302",
+    "CITY_NAME" : "肇庆"
+  },
+  {
+    "CITY_ID" : "303",
+    "CITY_NAME" : "湛江"
+  },
+  {
+    "CITY_ID" : "304",
+    "CITY_NAME" : "江门"
+  },
+  {
+    "CITY_ID" : "305",
+    "CITY_NAME" : "河源"
+  },
+  {
+    "CITY_ID" : "306",
+    "CITY_NAME" : "清远"
+  },
+  {
+    "CITY_ID" : "307",
+    "CITY_NAME" : "云浮"
+  },
+  {
+    "CITY_ID" : "308",
+    "CITY_NAME" : "潮州"
+  },
+  {
+    "CITY_ID" : "309",
+    "CITY_NAME" : "东莞"
+  },
+  {
+    "CITY_ID" : "310",
+    "CITY_NAME" : "中山"
+  },
+  {
+    "CITY_ID" : "311",
+    "CITY_NAME" : "阳江"
+  },
+  {
+    "CITY_ID" : "312",
+    "CITY_NAME" : "揭阳"
+  },
+  {
+    "CITY_ID" : "313",
+    "CITY_NAME" : "茂名"
+  },
+  {
+    "CITY_ID" : "314",
+    "CITY_NAME" : "汕尾"
+  },
+  {
+    "CITY_ID" : "315",
+    "CITY_NAME" : "昆明"
+  },
+  {
+    "CITY_ID" : "316",
+    "CITY_NAME" : "大理"
+  },
+  {
+    "CITY_ID" : "317",
+    "CITY_NAME" : "红河"
+  },
+  {
+    "CITY_ID" : "318",
+    "CITY_NAME" : "曲靖"
+  },
+  {
+    "CITY_ID" : "319",
+    "CITY_NAME" : "保山"
+  },
+  {
+    "CITY_ID" : "320",
+    "CITY_NAME" : "文山"
+  },
+  {
+    "CITY_ID" : "321",
+    "CITY_NAME" : "玉溪"
+  },
+  {
+    "CITY_ID" : "322",
+    "CITY_NAME" : "楚雄"
+  },
+  {
+    "CITY_ID" : "323",
+    "CITY_NAME" : "普洱"
+  },
+  {
+    "CITY_ID" : "324",
+    "CITY_NAME" : "昭通"
+  },
+  {
+    "CITY_ID" : "325",
+    "CITY_NAME" : "临沧"
+  },
+  {
+    "CITY_ID" : "326",
+    "CITY_NAME" : "怒江"
+  },
+  {
+    "CITY_ID" : "327",
+    "CITY_NAME" : "迪庆"
+  },
+  {
+    "CITY_ID" : "328",
+    "CITY_NAME" : "丽江"
+  },
+  {
+    "CITY_ID" : "329",
+    "CITY_NAME" : "德宏"
+  },
+  {
+    "CITY_ID" : "330",
+    "CITY_NAME" : "西双版纳"
+  },
+  {
+    "CITY_ID" : "331",
+    "CITY_NAME" : "南宁"
+  },
+  {
+    "CITY_ID" : "332",
+    "CITY_NAME" : "崇左"
+  },
+  {
+    "CITY_ID" : "333",
+    "CITY_NAME" : "柳州"
+  },
+  {
+    "CITY_ID" : "334",
+    "CITY_NAME" : "来宾"
+  },
+  {
+    "CITY_ID" : "335",
+    "CITY_NAME" : "桂林"
+  },
+  {
+    "CITY_ID" : "336",
+    "CITY_NAME" : "梧州"
+  },
+  {
+    "CITY_ID" : "337",
+    "CITY_NAME" : "贺州"
+  },
+  {
+    "CITY_ID" : "338",
+    "CITY_NAME" : "贵港"
+  },
+  {
+    "CITY_ID" : "339",
+    "CITY_NAME" : "玉林"
+  },
+  {
+    "CITY_ID" : "340",
+    "CITY_NAME" : "百色"
+  },
+  {
+    "CITY_ID" : "341",
+    "CITY_NAME" : "钦州"
+  },
+  {
+    "CITY_ID" : "342",
+    "CITY_NAME" : "河池"
+  },
+  {
+    "CITY_ID" : "343",
+    "CITY_NAME" : "北海"
+  },
+  {
+    "CITY_ID" : "344",
+    "CITY_NAME" : "防城港"
+  },
+  {
+    "CITY_ID" : "345",
+    "CITY_NAME" : "海口"
+  },
+  {
+    "CITY_ID" : "346",
+    "CITY_NAME" : "三亚"
+  },
+  {
+    "CITY_ID" : "347",
+    "CITY_NAME" : "东方"
+  },
+  {
+    "CITY_ID" : "348",
+    "CITY_NAME" : "临高"
+  },
+  {
+    "CITY_ID" : "349",
+    "CITY_NAME" : "澄迈"
+  },
+  {
+    "CITY_ID" : "350",
+    "CITY_NAME" : "儋州"
+  },
+  {
+    "CITY_ID" : "351",
+    "CITY_NAME" : "昌江"
+  },
+  {
+    "CITY_ID" : "352",
+    "CITY_NAME" : "白沙"
+  },
+  {
+    "CITY_ID" : "353",
+    "CITY_NAME" : "琼中"
+  },
+  {
+    "CITY_ID" : "354",
+    "CITY_NAME" : "定安"
+  },
+  {
+    "CITY_ID" : "355",
+    "CITY_NAME" : "屯昌"
+  },
+  {
+    "CITY_ID" : "356",
+    "CITY_NAME" : "琼海"
+  },
+  {
+    "CITY_ID" : "357",
+    "CITY_NAME" : "文昌"
+  },
+  {
+    "CITY_ID" : "358",
+    "CITY_NAME" : "保亭"
+  },
+  {
+    "CITY_ID" : "359",
+    "CITY_NAME" : "万宁"
+  },
+  {
+    "CITY_ID" : "360",
+    "CITY_NAME" : "陵水"
+  },
+  {
+    "CITY_ID" : "361",
+    "CITY_NAME" : "西沙"
+  },
+  {
+    "CITY_ID" : "362",
+    "CITY_NAME" : "南沙"
+  },
+  {
+    "CITY_ID" : "363",
+    "CITY_NAME" : "乐东"
+  },
+  {
+    "CITY_ID" : "364",
+    "CITY_NAME" : "五指山"
+  },
+  {
+    "CITY_ID" : "365",
+    "CITY_NAME" : "香港"
+  },
+  {
+    "CITY_ID" : "366",
+    "CITY_NAME" : "澳门"
+  },
+  {
+    "CITY_ID" : "367",
+    "CITY_NAME" : "台北"
+  },
+  {
+    "CITY_ID" : "368",
+    "CITY_NAME" : "高雄"
+  },
+  {
+    "CITY_ID" : "369",
+    "CITY_NAME" : "台中"
+  }
+]
+    </string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="string_exit">再次点击返回键切换到桌面</string>
+    <string name="btn_login">登录</string>
+    <string name="register">注 册</string>
+    <string name="find_password">忘记密码</string>
+    <string name="refresh_checkNum">发送验证码</string>
+    <string name="inputphone">请输入手机号</string>
+    <string name="inputpwd">请输入密码</string>
+    <string name="inputNewpwd">请输入新密码</string>
+    <string name="inputcode">请输入短信验证码</string>
+    <string name="forgetpwd">设置密码</string>
+    <string name="perfect_info_hint">完善信息将更便于你使用即时问答，预约课程等</string>
+
+    <string name="acc_center_phone">客服电话：010-0000000</string>
+    <string name="acc_center_qq">官方QQ: 9527</string>
+
+    <string name="net_error">"请检查你的网络状况，点击重试"</string>
+    <string name="net_error2">"获取数据失败，点击重试"</string>
+
+    <!-- 关于我们 -->
+    <string name="info_1">Copyright © 2016 </string>
+    <string name="info_2">课12</string>
+    <string name="qq">用户反馈QQ群: </string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+
+
+</resources>

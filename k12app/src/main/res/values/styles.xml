@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style name="NormalDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item><!-- 有没有黑色浮层 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 登陆注册表单EditText样式 -->
+    <style name="loginEditTexStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/login_text</item>
+        <item name="android:textColorHint">@color/login_EditText</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NickEditStyle" parent="loginEditTexStyle">
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="InfoEditStyle" parent="loginEditTexStyle">
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="CardEditStyle" parent="loginEditTexStyle">
+        <item name="android:maxLength">25</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="PwdEditStyle" parent="loginEditTexStyle">
+        <item name="android:maxLength">20</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">6位以上的密码</item>
+    </style>
+
+    <!-- 绿色按钮 -->
+    <style name="btnGreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/selector_greenbtn_white</item>
+        <item name="android:background">@drawable/selector_green_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="btnYellow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/selector_greenbtn_white</item>
+        <item name="android:background">@drawable/selector_yellow_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="btnYellowStroke">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/selector_yellow_white</item>
+        <item name="android:background">@drawable/selector_yellow_btn2</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="btnRed">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/selector_red_white</item>
+        <item name="android:background">@drawable/selector_red_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- 灰色按钮 -->
+    <style name="btnGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/selector_greenbtn_white</item>
+        <item name="android:background">@drawable/selector_gray_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LoadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item><!-- 有没有黑色浮层 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 切换头像的TextView -->
+    <style name="textPhoto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/gray_333333</item>
+    </style>
+
+    <style name="NotificationContent">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="pickerview_dialogAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
+    </style>
+
+    <style name="common_ho_vm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="common_hm_vm">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/bg_stars</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="roomRatingBarBig" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/bg_big_stars</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>

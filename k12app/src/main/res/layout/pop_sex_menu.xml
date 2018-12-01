@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mRlMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_88000000" >
+
+    <com.k12app.view.CustomButton
+        android:id="@+id/bt_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        android:background="@drawable/bg_rectangle_white"
+        android:text="取消"
+        android:textColor="@color/gray_888888"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_cancel"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/bg_round_white"
+        android:orientation="vertical" >
+
+        <com.k12app.view.CustomTextView
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="请 选 择 性 别"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/gray_777777"
+            android:textSize="@dimen/sp_15"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_eeeeee"
+            android:contentDescription="间隔线"
+            android:visibility="visible"/>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_man"
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="男"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/gray_333333"
+            android:textSize="19sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_eeeeee"
+            android:contentDescription="间隔线" />
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_women"
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="女"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/gray_333333"
+            android:textSize="19sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_eeeeee"
+            android:contentDescription="间隔线" />
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_Secret"
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="保密"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/gray_333333"
+            android:textSize="19sp"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+</RelativeLayout>

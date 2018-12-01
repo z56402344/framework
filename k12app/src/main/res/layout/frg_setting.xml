@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/RlTitle"
+        layout="@layout/title_common"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="消息开关"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvPwd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="修改密码"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"
+        android:visibility="gone"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvCache"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="清除缓存"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvMsgBg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="设置上课交流区背景"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="投诉与建议"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"
+        android:visibility="gone"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvScore"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="给我们评分"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"
+        android:visibility="gone"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="关于我们"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvVer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="版本更新"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_my_arrow"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvShare"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_my_arrow"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="分享下载"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <com.k12app.view.CustomButton
+        android:id="@+id/btn_exit"
+        style="@style/btnRed"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="45dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="退 出"/>
+</LinearLayout>

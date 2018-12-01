@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mLlCom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="50dp"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/mLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ebebeb"/>
+
+        <RelativeLayout
+            android:id="@+id/mRlBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mIvShowPic"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="6dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@drawable/selector_ansview_image"/>
+
+            <com.k12app.view.CustomButton
+                android:id="@+id/mBtnCom"
+                style="@style/btnGray"
+                android:layout_width="48dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="发表"
+                android:textColor="@color/gray_2E2E2E"
+                android:textSize="@dimen/sp_17"/>
+
+            <com.k12app.view.CustomEditText
+                android:id="@+id/mEtText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_toLeftOf="@id/mBtnCom"
+                android:layout_toRightOf="@id/mIvShowPic"
+                android:background="@drawable/btn_rectangle_gray5"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:hint="输入聊天内容"
+                android:maxLength="150"
+                android:maxLines="4"
+                android:minHeight="37dp"
+                android:onClick="onClick"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"/>
+
+            <View
+                android:id="@+id/mEditCover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mEtText"
+                android:layout_alignLeft="@id/mEtText"
+                android:layout_alignRight="@id/mEtText"
+                android:layout_alignTop="@id/mEtText"
+                android:background="#00ffffff"
+                android:clickable="true"
+                android:onClick="onClick"/>
+
+            <View
+                android:id="@+id/mVBg2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4D000000"
+                android:clickable="true"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_e0e0e0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mRlBtn"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/mRlPic"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:visibility="visible">
+
+                <com.k12app.view.CustomTextView
+                    android:id="@+id/mTvPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:clickable="true"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/selector_post_image"
+                    android:gravity="center_horizontal"
+                    android:onClick="onClick"
+                    android:text="照片"
+                    android:textColor="@color/gray_999999"
+                    android:textSize="@dimen/sp_17"/>
+
+                <com.k12app.view.CustomTextView
+                    android:id="@+id/mTvCamera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/mTvPic"
+                    android:clickable="true"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/selector_post_camera"
+                    android:gravity="center_horizontal"
+                    android:onClick="onClick"
+                    android:text="相机"
+                    android:textColor="@color/gray_999999"
+                    android:textSize="@dimen/sp_17"/>
+
+                <RelativeLayout
+                    android:id="@+id/mRlImage"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="3dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/mIvPic"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerCrop"/>
+
+                    <ImageView
+                        android:id="@+id/mIvPicDel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:src="@mipmap/ic_post_delete"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/mVBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/mLlCom"
+        android:background="#32000000"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

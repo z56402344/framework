@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_eeeeee">
+
+    <RelativeLayout
+        android:id="@+id/mRltitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxLines="1"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_20"/>
+
+        <ImageView
+            android:id="@+id/mIvArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="15dp"
+            android:src="@mipmap/ic_arrow_down"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/main_line_gray"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/mRlInfo"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_below="@id/mRltitle"
+        android:background="@color/white"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/ll_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp">
+
+            <com.k12lib.afast.view.RecycleImageView
+                android:id="@+id/mIvPhoto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_launcher"/>
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_rectangle_gray6"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:text="未认证"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_10"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ll_photo"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/ll_photo"
+            android:text="--"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_14"/>
+
+        <RatingBar
+            android:id="@+id/mRbar"
+            style="@style/roomRatingBar"
+            android:layout_alignTop="@id/ll_photo"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/mTvName"
+            android:numStars="5"
+            android:rating="0"
+            android:visibility="gone"/>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/mTvName"
+            android:layout_alignTop="@id/mTvName"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/mRbar"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="编号：--"
+            android:textColor="@color/gray_999999"
+            android:textSize="@dimen/sp_12"/>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mTvName"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ll_photo"
+            android:background="@drawable/btn_rectangle_yellow2"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="--"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12"/>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mTvName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/mTvClass"
+            android:background="@drawable/btn_rectangle_yellow2"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:singleLine="true"
+            android:text="手机号: "
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_my_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/mRlInfo"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_e0e0e0"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvCourse"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_my_course"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/ic_my_arrow"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="我的课程"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"/>
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvXT"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_acc_xt"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/ic_my_arrow"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="我的学堂"/>
+
+            <View
+                android:id="@+id/mLineCollect"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"/>
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvCollect"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_my_collection"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/ic_my_arrow"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="我的关注"/>
+
+            <View
+                android:id="@+id/mLineCourseware"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"
+                android:visibility="gone"/>
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvCourseware"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_acc_courseware"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/ic_my_arrow"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="我的课件库"
+                android:visibility="gone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_e0e0e0"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <com.k12app.view.CustomTextView
+                    android:id="@+id/mTvWallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:drawableLeft="@mipmap/ic_my_wallet"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="我的钱包"/>
+
+                <ImageView
+                    android:id="@+id/iv_wallet_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/ic_my_arrow"/>
+
+                <com.k12app.view.CustomTextView
+                    android:id="@+id/mTvMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/iv_wallet_arrow"
+                    android:text="--"
+                    android:textColor="@color/yellow_FF6F0F"/>
+
+            </RelativeLayout>
+
+
+            <View
+                android:id="@+id/mLineCoupon"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"/>
+
+            <RelativeLayout
+                android:id="@+id/mRlCoupon"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <com.k12app.view.CustomTextView
+                    android:id="@+id/mTvCoupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:drawableLeft="@mipmap/ic_my_coupon"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/ic_my_arrow"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="优惠券"/>
+
+                <ImageView
+                    android:id="@+id/iv_coupon_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/ic_my_arrow"/>
+
+                <com.k12app.view.CustomTextView
+                    android:id="@+id/mTvCouponNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/iv_coupon_arrow"
+                    android:text="--"
+                    android:textColor="@color/gray_999999"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"/>
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvSetting"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_my_setting"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/ic_my_arrow"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="设置"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"/>
+
+            <com.k12app.view.CustomTextView
+                android:id="@+id/mTvShare"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_acc_share"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/ic_my_arrow"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="分享"
+                android:visibility="gone"/>
+
+            <View
+                android:id="@+id/mLineShare"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="45dp"
+                android:background="@color/gray_e0e0e0"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

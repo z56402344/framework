@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4">
+
+    <include
+        android:id="@+id/RlTitle"
+        layout="@layout/title_common" />
+
+    <com.k12app.view.PullRefreshListView
+        android:id="@+id/lv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RlTitle"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="13dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <include
+        android:id="@+id/rl_error"
+        layout="@layout/layout_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RlTitle" />
+
+</RelativeLayout>

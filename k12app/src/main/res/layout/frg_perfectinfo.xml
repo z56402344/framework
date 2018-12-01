@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/RlTitle"
+        layout="@layout/title_common"/>
+
+    <com.k12lib.afast.view.RecycleImageView
+        android:id="@+id/mIvPhoto"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@mipmap/ic_my_photo"/>
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvHint"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#fff3da"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/yellow_FF6F0F"
+        android:gravity="center"
+        android:text="@string/perfect_info_hint"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height"
+        android:layout_below="@id/mIvPhoto"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="姓名"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <com.k12app.view.CustomEditText
+            android:id="@+id/mEtNickName"
+            style="@style/NickEditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_toRightOf="@id/tv_nickName"
+            android:hint="请输入姓名"
+            android:maxLength="12"
+            android:singleLine="true"/>
+
+        <ImageView
+            android:id="@+id/iv_nickName_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@mipmap/btn_delete_up"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray"/>
+
+    <RelativeLayout
+        android:id="@+id/mRlSex"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginLeft="15dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="性别"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_sex"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text=""
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_my_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray"/>
+
+    <RelativeLayout
+        android:id="@+id/mRlCity"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginLeft="15dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="城市"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/mTvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_city"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text=""
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_my_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="学校"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <com.k12app.view.CustomEditText
+            android:id="@+id/mEtSchool"
+            style="@style/NickEditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_toRightOf="@id/tv_school"
+            android:hint="请输入学校"
+            android:maxLength="18"
+            android:singleLine="true"
+            android:textColor="@color/gray_2E2E2E"/>
+
+        <ImageView
+            android:id="@+id/iv_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@mipmap/btn_delete_up"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="年级"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <com.k12app.view.CustomEditText
+            android:id="@+id/mEtGrade"
+            style="@style/NickEditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_toRightOf="@id/tv_grade"
+            android:hint="请输入年级"
+            android:maxLength="18"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/gray_2E2E2E"/>
+
+        <ImageView
+            android:id="@+id/iv_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@mipmap/btn_delete_up"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="班级"
+            android:textColor="@color/gray_2E2E2E"
+            android:textSize="@dimen/sp_17"/>
+
+        <com.k12app.view.CustomEditText
+            android:id="@+id/mEtClass"
+            style="@style/NickEditStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_toRightOf="@id/tv_class"
+            android:hint="请输入班级"
+            android:maxLength="18"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/gray_2E2E2E"/>
+
+        <ImageView
+            android:id="@+id/iv_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@mipmap/btn_delete_up"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray"/>
+
+    <com.k12app.view.CustomButton
+        android:id="@+id/mBtnSave"
+        style="@style/btnGray"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="17dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="保存"/>
+
+</LinearLayout>

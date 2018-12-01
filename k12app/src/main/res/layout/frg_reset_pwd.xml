@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_common"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_oldpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:text="旧密码"/>
+
+        <ImageView
+            android:id="@+id/iv_pwd_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@mipmap/btn_delete_up"
+            android:visibility="gone" />
+
+        <com.k12app.view.CustomEditText
+            android:id="@+id/edt_pwd"
+            style="@style/NickEditStyle"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:hint="输入旧的交易密码"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:layout_below="@+id/iv_nickName_x"
+            android:inputType="textPassword"
+            android:layout_toRightOf="@+id/tv_oldpwd"
+            android:layout_toEndOf="@+id/tv_oldpwd"
+            android:layout_marginStart="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15dp"
+        android:background="@color/main_line_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.k12app.view.CustomTextView
+            android:id="@+id/tv_newpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:text="新密码"/>
+
+        <com.k12app.view.CustomEditText
+            android:id="@+id/edt_new_pwd"
+            style="@style/NickEditStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/tv_newpwd"
+            android:hint="输入新的交易密码"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/iv_newpwd_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/btn_delete_up"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/main_line_gray" />
+
+    <com.k12app.view.CustomButton
+        android:id="@+id/btn_save"
+        style="@style/btnYellow"
+        android:layout_marginTop="35dip"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="修改" />
+
+</LinearLayout>

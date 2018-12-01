@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mVp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/mLlDotGroup"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/mLlBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.k12app.view.CustomButton
+            android:id="@+id/mBtnLogin"
+            style="@style/btnYellow"
+            android:layout_width="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="登 录"/>
+
+        <com.k12app.view.CustomButton
+            android:id="@+id/mBtnReg"
+            style="@style/btnYellowStroke"
+            android:layout_width="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="注 册"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

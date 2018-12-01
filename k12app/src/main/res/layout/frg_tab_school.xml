@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_eeeeee">
+
+    <include
+        android:id="@+id/rl_error"
+        layout="@layout/item_listview_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RlTitle"
+        android:layout_marginTop="240dp"/>
+
+    <com.k12app.view.PullRefreshListView
+        android:id="@+id/mLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_tab"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent"
+        android:footerDividersEnabled="false"
+        android:background="@color/gray_eeeeee"
+        android:scrollbars="none"
+        android:visibility="visible"/>
+
+</RelativeLayout>

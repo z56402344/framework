@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mRlMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_88000000" >
+
+    <Button
+        android:id="@+id/bt_cancle"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        android:background="@mipmap/bg_round_white"
+        android:text="取消"
+        android:textColor="@color/gray_888888"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_cancle"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:background="@mipmap/bg_round_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_delete"
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="删 除"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/red_f36b4b"
+            android:textSize="19sp"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_333333"
+            android:contentDescription="间隔线"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_camera"
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="拍 照"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/gray_333333"
+            android:textSize="19sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_88333333"
+            android:contentDescription="间隔线" />
+
+        <TextView
+            android:id="@+id/tv_album"
+            style="@style/textPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="相 册"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/gray_333333"
+            android:textSize="19sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

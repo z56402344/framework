@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_eeeeee">
+
+    <include
+        android:id="@+id/RlTitle"
+        layout="@layout/title_common" />
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/tv_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/acc_center_qq"
+        android:textColor="@color/yellow_FF6F0F"
+        android:textSize="@dimen/sp_15" />
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/tv_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_qq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/acc_center_phone"
+        android:textColor="@color/yellow_FF6F0F"
+        android:textSize="@dimen/sp_15" />
+
+    <com.k12app.view.CustomEditText
+        android:id="@+id/mEtFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/RlTitle"
+        android:background="@android:color/white"
+        android:gravity="left"
+        android:hint="输入你的问题,留下联系方式"
+        android:maxLength="500"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_cccccc"
+        android:textSize="@dimen/sp_15" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/mEtFeedBack"
+        android:background="@color/gray_e0e0e0"/>
+
+    <com.k12app.view.CustomEditText
+        android:id="@+id/mEtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/line"
+        android:background="@android:color/white"
+        android:gravity="left"
+        android:hint="输入你的电话号码"
+        android:maxLength="500"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_cccccc"
+        android:textSize="@dimen/sp_15" />
+
+    <com.k12app.view.CustomTextView
+        android:id="@+id/mTvNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/mEtPhone"
+        android:layout_gravity="right"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="0/500"
+        android:textColor="@color/gray_d7d7d7"
+        android:textSize="@dimen/sp_15" />
+
+</RelativeLayout>

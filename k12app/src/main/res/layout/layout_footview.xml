@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <com.k12app.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_999999"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableTop="@mipmap/ic_data_notmore"
+        android:drawablePadding="5dp"
+        android:textSize="@dimen/sp_15"
+        android:text=" - 抱歉，已经没有数据啦 - "/>
+
+</LinearLayout>
