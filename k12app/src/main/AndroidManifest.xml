@@ -66,6 +66,14 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"/>
 
+        <activity
+            android:name=".activity.SecondAct"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+
         <!-- 微信回调activity -->
         <!--android:name="${applicationId}.wxapi.WXPayEntryActivity"-->
         <!-- 这里 applicationId 对应buildgradle 中 productFlavors 的 applicationId-->

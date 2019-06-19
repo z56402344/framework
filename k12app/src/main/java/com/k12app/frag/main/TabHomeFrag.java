@@ -63,11 +63,11 @@ public class TabHomeFrag extends TitleFrag implements IAct,
         Util.setText(mRoot, R.id.tv_title, "课程表");
         mLvInfo = (PullRefreshListView) findViewById(R.id.mLvInfo);
 
-        View head = LayoutInflater.from(mRoot.getContext()).inflate(R.layout.layout_tabhome_head, mLvInfo, false);
+//        View head = LayoutInflater.from(mRoot.getContext()).inflate(R.layout.layout_tabhome_head, mLvInfo, false);
 
         mFootView = LayoutInflater.from(mRoot.getContext()).inflate(R.layout.layout_footview, mLvInfo, false);
 
-        mLvInfo.addHeaderView(head);
+//        mLvInfo.addHeaderView(head);
         mLvInfo.addFooterView(mFootView);
     }
 
@@ -79,7 +79,7 @@ public class TabHomeFrag extends TitleFrag implements IAct,
 //        mLvInfo.setOnItemClickListener(this);
         mLvInfo.setPullRefreshListener(this);
 
-        mErrorView.setOnClickListener(this);
+//        mErrorView.setOnClickListener(this);
         mCurAdapter = new CourseAdapter();
         mLvInfo.setAdapter(mCurAdapter);
 
